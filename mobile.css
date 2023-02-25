@@ -1,0 +1,5 @@
+@media (max-width: 1300px) {
+  .navbar li a{
+    padding: 0 15px;
+  }
+}

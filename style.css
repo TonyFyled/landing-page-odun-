@@ -1,0 +1,143 @@
+:root{
+  --black: #000000;
+  --white: #ffffff;
+  --grey:  #f2f2f2;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: var(--black);
+}
+/* utilities */
+.body{
+  font-family: 'Inter', sans-serif;
+  background-color: var(--white);
+  color: var(--black);
+}
+.container{
+  width: 1200px;
+  overflow: hidden;
+  padding: 50px;
+  margin: auto;
+}
+.container2{
+  width: 80%;
+  overflow: hidden;
+  padding: 20px;
+  margin: auto;
+}
+.flex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.center{
+  text-align: center;
+}
+.start{
+  text-align: start;
+}
+.white-button{
+  border-radius: 8px;
+  padding: 12px 18px;
+  font-weight: 500;
+  background-color: var(--white);
+  color: var(--black);
+}
+.trans-button{
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-weight: 500;
+  border: 1px black solid;
+}
+.trans-button:hover{
+  background-color: var(--black);
+  color: var(--white);
+  transition: 1s;
+}
+.big-button{
+  padding: 20px 52px;
+  background-color: var(--black);
+  color: var(--white);
+  font-size: 20px;
+  border-radius: 10px;
+}
+.grey-button{
+  padding: 20px 40px;
+  background-color: var(--grey);
+  color: var(--black);
+  font-size: 20px;
+  border-radius: 15px;
+  margin: 20px;
+}
+/* main classes */
+.main{
+  font-family: 'Inter', sans-serif;
+}
+.navbar{
+  background-color: var(--black);
+  color: var(--white);
+  border-radius: 10px;
+  padding: 6px 1.5px 6px 40px;
+  font-family: 'Inter', sans-serif;
+}
+.navbar li a{
+  color: var(--white);
+  font-family: 'Inter', sans-serif;
+  padding: 0 40px;
+  font-size: 18px;
+}
+.navbar img{
+  width: 35px;
+  height: 35px;
+}
+.navbar i{
+  padding: 0 15px;
+}
+.hero{
+  padding-top: 80px;
+  font-family: 'Inter';
+}
+.section-heading{
+  font-weight: 400;
+  padding: 10px 250px 70px 250px;
+  line-height: 40px;
+}
+.hero-content img{
+  width: 100%;
+  padding-bottom: 20px;
+}
+.hero-content{
+  border-radius: 20px;
+  padding: 10px;
+}
+.hero-content h1{
+  font-size: 36px;
+  font-weight: 500;
+}
+.hero-content p{
+  padding: 15px 0;
+  font-size: 18px;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.4);
+}
+.back-to-top{
+  padding: 70px;
+}
+.footer{
+  padding: 50px 50px 0 50px;
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
