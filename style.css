@@ -33,11 +33,38 @@ a{
   padding: 20px;
   margin: auto;
 }
-.flex{
+.flex , .flex1, .navbar-flex, .navbar-flex1{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+.width{
+  width: 70%;
+}
+.line{
+  background-color: var(--white);
+  height: 2px;
+  width: 20px;
+  margin-top: 5px;
+  border-radius: 2px
+}
+.hamburger{
+  display: none;
+  align-self: flex-start;
+}
+.hamburger-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--black);
+  width: 150px;
+  height: 50vh;
+}
+.hamburger-content a{
+  color: var(--white);
+  padding: 20px 0;
 }
 .center{
   text-align: center;
@@ -99,8 +126,14 @@ a{
   width: 35px;
   height: 35px;
 }
+.navbar span{
+  font-weight: 600;
+}
 .navbar i{
   padding: 0 15px;
+}
+.navbar p{
+  padding-left: 10px;
 }
 .hero{
   padding-top: 80px;
@@ -140,4 +173,15 @@ a{
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+}
+.appear{
+  width: 90%;
+  background-color: var(--black);
+  border-radius: 10px;
+  margin: 20px;
+  display: none;
+}
+.appear a{
+  color: var(--white);
+  padding: 5px;
 }
